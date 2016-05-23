@@ -1,6 +1,6 @@
 {
   "name": "@about_hiroppy/eslint-setting-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "setting file for eslint",
   "main": "index.js",
   "scripts": {
