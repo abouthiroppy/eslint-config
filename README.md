@@ -1,3 +1,6 @@
 # eslint-config
 
-eslintの設定ファイル
+## Install
+```
+$ npm install @about_hiroppy/eslint-setting-file
+```

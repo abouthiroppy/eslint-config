@@ -1,0 +1,19 @@
+{
+  "name": "@about_hiroppy/eslint-setting-file",
+  "version": "1.0.0",
+  "description": "setting file for eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouthiroppy/eslint-config.git"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abouthiroppy/eslint-config/issues"
+  },
+  "homepage": "https://github.com/abouthiroppy/eslint-config#readme"
+}
