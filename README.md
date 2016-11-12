@@ -12,6 +12,9 @@ $ npm install --save-dev eslint-config-sky
 Add `"extends": "sky"` to your .eslintrc.
 This includes base + react + flow rules.
 
+### base
+`"extends": "sky/base"`
+
 ### base + react
 `"extends": "sky/react"`
 
