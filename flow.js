@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     './rules/base',
-    './rules/low'
+    './rules/flow'
   ].map(require.resolve),
   rules: {}
 };
