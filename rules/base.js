@@ -83,7 +83,6 @@ module.exports = {
     'space-infix-ops': 2,
     'space-unary-ops': 2,
     'spaced-comment': [2, 'always'],
-    'react/prefer-stateless-function': 0,
     'import/no-unresolved': 0,
     'padded-blocks': 0
   },
