@@ -27,6 +27,7 @@
   "homepage": "https://github.com/abouthiroppy/eslint-config#readme",
   "devDependencies": {
     "ava": "^0.16.0",
+    "conventional-changelog-cli": "^1.2.0",
     "eslint": "^3.10.0",
     "nyc": "^8.4.0"
   },
