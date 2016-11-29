@@ -1,10 +1,10 @@
 // refer to @jyane's eslint-flow-config
 
 module.exports = {
-  plugins: [
+  'plugins': [
     'flowtype'
   ],
-  rules: {
+  'rules': {
     'flowtype/boolean-style': [
       2,
       'boolean'
@@ -12,7 +12,7 @@ module.exports = {
     'flowtype/define-flow-type': 1,
     'flowtype/delimiter-dangle': [
       2,
-      'never'
+      'always'
     ],
     'flowtype/generic-spacing': [
       2,
@@ -27,17 +27,15 @@ module.exports = {
     'flowtype/require-parameter-type': [
       2,
       {
-        excludeArrowFunctions: true
+        'excludeArrowFunctions': true
       }
     ],
-    'flowtype/require-return-type': [
-      1,
-      'always',
-      {
-        excludeArrowFunctions: true
-      }
-    ],
-    'flowtype/require-valid-file-annotation': 2,
+    // 'flowtype/require-valid-file-annotation': [
+    //   2,
+    //   'always', {
+    //     'annotationStyle': 'line'
+    //   }
+    // ],
     'flowtype/semi': [
       2,
       'always'
@@ -61,9 +59,9 @@ module.exports = {
     'flowtype/use-flow-type': 1,
     'flowtype/valid-syntax': 1
   },
-  settings: {
-    lowtype: {
-      onlyFilesWithFlowAnnotation: false
+  'settings': {
+    'flowtype': {
+      // 'onlyFilesWithFlowAnnotation': false
     }
   }
-};
+}

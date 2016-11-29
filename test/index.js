@@ -65,10 +65,12 @@ const Label = () => (
 `;
 
 const flowJs = `
+// @flow
+
 const name: string = 'name';
 
 type User = {
-  name: string
+  name: string;
 };
 
 /**

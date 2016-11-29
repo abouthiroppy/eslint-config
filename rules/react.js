@@ -1,4 +1,4 @@
-// https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js
+// https://github.com/airbnb/javascript/blob/3e656750e68acaa166fb53e4783b66b42473db9f/packages/eslint-config-airbnb/rules/react.js
 
 module.exports = {
   plugins: [
@@ -207,11 +207,12 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': ['error', {
       order: [
+        '/^state$/',
+        'everything-else',
         'static-methods',
         'lifecycle',
         '/^on.+$/',
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'everything-else',
         '/^render.+$/',
         'render'
       ],
@@ -244,7 +245,7 @@ module.exports = {
 
     // only .jsx files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
 
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
@@ -295,7 +296,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.json']
+        extensions: ['.js', '.jsx', '.json']
       }
     },
     react: {
