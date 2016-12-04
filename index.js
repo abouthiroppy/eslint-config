@@ -4,5 +4,7 @@ module.exports = {
     './rules/flow',
     './rules/react'
   ].map(require.resolve),
-  rules: {}
+  rules: {
+    'react/prop-types': 0
+  }
 };

@@ -48,7 +48,7 @@ module.exports = {
     'no-dupe-keys': 2,
     'no-empty': 2,
     'no-empty-pattern': 2,
-    'no-invalid-this': 1,
+    'no-invalid-this': 0, // does not correspond to `arrow-bind-syntax`
     'no-mixed-spaces-and-tabs': 2,
     'no-multiple-empty-lines': [2, {'max': 2}],
     'no-multi-spaces': 0,
@@ -63,7 +63,7 @@ module.exports = {
     'no-var': 2,
     'no-regex-spaces': 0,
     'object-shorthand': 0,
-    'object-curly-spacing': [0, 'never', {
+    'object-curly-spacing': [1, 'always', {
       objectsInObjects: false,
       arraysInObjects: false
     }],
