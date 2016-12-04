@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/abouthiroppy/eslint-config/compare/v1.3.0...v1.4.0) (2016-12-04)
+
+
+### Features
+
+* **base:** disable react/prop-types , no-invalid-this and object-curly-spacing ([cb029b0](https://github.com/abouthiroppy/eslint-config/commit/cb029b0))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/abouthiroppy/eslint-config/compare/39ec12f...v1.3.0) (2016-11-29)
 
