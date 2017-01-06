@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sky",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "setting file for eslint(includes react and flowtype)",
   "main": "index.js",
   "scripts": {
