@@ -1,3 +1,13 @@
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/abouthiroppy/eslint-config/compare/v1.4.0...v1.4.1) (2017-01-06)
+
+
+### Features
+
+* **base:** make use of eslint-plugin-import-order ([2c4e4d5](https://github.com/abouthiroppy/eslint-config/commit/2c4e4d5))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/abouthiroppy/eslint-config/compare/v1.3.0...v1.4.0) (2016-12-04)
 
