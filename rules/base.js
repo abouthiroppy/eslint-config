@@ -84,7 +84,9 @@ module.exports = {
     'space-unary-ops': 2,
     'spaced-comment': [2, 'always'],
     'import/no-unresolved': 0,
-    'padded-blocks': 0
+    'padded-blocks': 0,
+
+    'import-order/import-order': 2
   },
   env: {
     es6: true,
@@ -99,6 +101,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
-  'plugins': [
+  plugins: [
+    'import-order'
   ]
 }

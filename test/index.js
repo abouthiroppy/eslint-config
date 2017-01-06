@@ -8,8 +8,10 @@ reactConfig.parser = 'babel-eslint';
 flowConfig.parser = 'babel-eslint';
 
 const baseJs = `
+import fs from 'fs';
 import hoge from 'hoge';
-const fuga = require('fuga');
+import fuga from '../';
+import piyo from './';
 
 const test1 = 1;
 const test2 = '2';
