@@ -68,7 +68,7 @@ module.exports = {
     'no-var': 2,
     'no-regex-spaces': 0,
     'object-shorthand': 0,
-    'object-curly-spacing': [1, 'always', {
+    'object-curly-spacing': [2, 'always', {
       objectsInObjects: false,
       arraysInObjects: false
     }],
