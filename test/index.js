@@ -10,15 +10,25 @@ flowConfig.parser = 'babel-eslint';
 const baseJs = `
 import fs from 'fs';
 import hoge from 'hoge';
+import { fuga } from 'fuga';
 import fuga from '../';
 import piyo from './';
 
 const test1 = 1;
 const test2 = '2';
-const obj = {
-  test1: 1,
-  test2: 2
+const obj   = {
+  test1 : 1,
+  test2 : 2,
+  test13: 13
 };
+
+if (test1 == null) {
+  alert('nope');
+}
+
+if (test2 === '2') {
+  alert('yep');
+}
 
 /**
  * @description check:)

@@ -7,7 +7,7 @@ module.exports = {
     'max-len': 0,
     'arrow-parens': 2,
     'arrow-spacing': 2,
-    'block-spacing': [1, 'never'],
+    'block-spacing': 2,
     camelcase: 2,
     'constructor-super': 2,
     'comma-dangle': [2, 'never'],
@@ -21,7 +21,7 @@ module.exports = {
     'dot-notation': 0,
     'dot-location': [2, 'property'],
     'eol-last': 2,
-    eqeqeq: 2,
+    eqeqeq: [2, 'allow-null'],
     'generator-star-spacing': 2,
     indent: [2, 2, {
       SwitchCase: 1
@@ -51,7 +51,12 @@ module.exports = {
     'no-invalid-this': 0, // does not correspond to `arrow-bind-syntax`
     'no-mixed-spaces-and-tabs': 2,
     'no-multiple-empty-lines': [2, {'max': 2}],
-    'no-multi-spaces': 0,
+    'no-multi-spaces': [2, {
+      exceptions: {
+        ImportDeclaration: true,
+        VariableDeclarator: true
+      }
+    }],
     'no-this-before-super': 2,
     'no-trailing-spaces': 2,
     'no-lonely-if': 2,
