@@ -8,6 +8,9 @@ reactConfig.parser = 'babel-eslint';
 flowConfig.parser = 'babel-eslint';
 
 const baseJs = `
+/* eslint-disable no-unused-vars */
+
+
 import fs from 'fs';
 import hoge from 'hoge';
 import { fuga } from 'fuga';

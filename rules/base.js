@@ -4,7 +4,14 @@ module.exports = {
   parser: 'babel-eslint',
   rules: {
     'consistent-return': 0,
-    'max-len': 0,
+    'max-len': [2, {
+      code: 80,
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreRegExpLiterals: true,
+      ignoreTrailingComments: true,
+      ignoreTemplateLiterals: true
+    }],
     'arrow-parens': 2,
     'arrow-spacing': 2,
     'block-spacing': 2,
@@ -24,13 +31,21 @@ module.exports = {
     eqeqeq: [2, 'allow-null'],
     'generator-star-spacing': 2,
     indent: [2, 2, {
-      SwitchCase: 1
+      SwitchCase: 1,
+      VariableDeclarator: {
+        var: 2,
+        let: 2,
+        const: 3
+      }
     }],
     'require-jsdoc': 2,
     'key-spacing': [2, {
       beforeColon: false,
       afterColon : true,
       align      : 'colon'
+    }],
+    'keyword-spacing': [2, {
+      before: true
     }],
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': [2, {
@@ -60,6 +75,7 @@ module.exports = {
     'no-this-before-super': 2,
     'no-trailing-spaces': 2,
     'no-lonely-if': 2,
+    'no-unused-vars': 2,
     'no-unneeded-ternary': 2,
     'no-underscore-dangle': [2, {
       allowAfterThis: true
