@@ -4,7 +4,7 @@
   "description": "setting file for eslint(includes react and flowtype)",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
+    "test": "nyc ava",
     "lint": "node project-lint.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "postcover": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
