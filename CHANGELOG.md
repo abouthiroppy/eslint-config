@@ -1,3 +1,8 @@
+<a name="1.6.2"></a>
+## [1.6.2](https://github.com/abouthiroppy/eslint-config/compare/v1.6.1...v1.6.2) (2017-06-20)
+
+
+
 <a name="1.6.1"></a>
 ## [1.6.1](https://github.com/abouthiroppy/eslint-config/compare/v1.5.0...v1.6.1) (2017-06-20)
 
