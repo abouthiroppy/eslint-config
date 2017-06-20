@@ -1,3 +1,43 @@
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/abouthiroppy/eslint-config/compare/v1.5.0...v1.6.1) (2017-06-20)
+
+
+### Features
+
+* **base:** add new rules ([8e69e40](https://github.com/abouthiroppy/eslint-config/commit/8e69e40))
+
+
+
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/abouthiroppy/eslint-config/compare/v1.4.4...v1.5.0) (2017-05-07)
+
+
+### Features
+
+* **react:** commentout for proptypes ([ff220e2](https://github.com/abouthiroppy/eslint-config/commit/ff220e2))
+
+
+
+<a name="1.4.4"></a>
+## [1.4.4](https://github.com/abouthiroppy/eslint-config/compare/v1.4.3...v1.4.4) (2017-03-29)
+
+
+
+<a name="1.4.3"></a>
+## [1.4.3](https://github.com/abouthiroppy/eslint-config/compare/v1.4.2...v1.4.3) (2017-01-08)
+
+
+### Features
+
+* **base:** update object-curly-spacing ([ae90ef7](https://github.com/abouthiroppy/eslint-config/commit/ae90ef7))
+
+
+
+<a name="1.4.2"></a>
+## [1.4.2](https://github.com/abouthiroppy/eslint-config/compare/v1.4.1...v1.4.2) (2017-01-08)
+
+
+
 <a name="1.4.1"></a>
 ## [1.4.1](https://github.com/abouthiroppy/eslint-config/compare/v1.4.0...v1.4.1) (2017-01-06)
 
