@@ -113,19 +113,34 @@ function checkFailedRules(config, source) {
 }
 
 test('should return no errored at base', (t) => {
-  const result = checkFailedRules(baseConfig, baseJs);
+  try {
+    const result = checkFailedRules(baseConfig, baseJs);
 
-  t.is(result.errorCount, 0);
+    t.is(result.errorCount, 0);
+  } catch(e) {
+    console.error(e);
+    t.fail();
+  }
 });
 
 test('should return no errored at react', (t) => {
-  const result = checkFailedRules(reactConfig, reactJs);
+  try {
+    const result = checkFailedRules(reactConfig, reactJs);
 
-  t.is(result.errorCount, 0);
+    t.is(result.errorCount, 0);
+  } catch(e) {
+    console.error(e);
+    t.fail();
+  }
 });
 
 test('should return no errored at flow', (t) => {
-  const result = checkFailedRules(flowConfig, flowJs);
+  try {
+    const result = checkFailedRules(flowConfig, flowJs);
 
-  t.is(result.errorCount, 0);
+    t.is(result.errorCount, 0);
+  } catch(e) {
+    console.error(e);
+    t.fail();
+  }
 });

@@ -5,12 +5,13 @@ module.exports = {
     'react'
   ],
   parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true,
-    },
-  },
-  ecmaFeatures: {
-    jsx: true,
+      experimentalObjectRestSpread: true,
+      modules: true
+    }
   },
 
   // View link below for react rules documentation

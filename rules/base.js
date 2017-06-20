@@ -109,17 +109,16 @@ module.exports = {
     'import/order': 2
   },
   env: {
-    es6: true,
     browser: true,
-    node: true,
-    mocha: true
-  },
-  ecmaFeatures: {
-    experimentalObjectRestSpread: true,
-    modules: true
+    node: true
   },
   parserOptions: {
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaVersion: 8,
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+      modules: true
+    }
   },
   plugins: [
     'import'
